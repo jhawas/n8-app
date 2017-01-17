@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/n8-app":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/n8-app","hostpath":"/Users/aranez-norman/dev/n8-app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/aranez-norman/dev/n8-app","disabled":false,"__vagrantfile":true}}}
