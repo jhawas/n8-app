@@ -47,6 +47,8 @@
                 <label>Account type</label>
                 <select v-model="form.type" class="form-control">
                     <option value="moderator" selected="">Moderator</option>
+                    <option value="affiliate">Affiliate</option> 
+                    <option value="sub-affiliate">Sub-affiliate</option> 
                     <option value="admin">Admin</option> 
                 </select>
             </div>

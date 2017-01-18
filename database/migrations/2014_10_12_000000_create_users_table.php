@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->text('contact_info')->nullable();
             $table->longtext('photo')->nullable();
-            $table->enum('type', ['moderator', 'admin', 'super'])->default('moderator');
+            $table->enum('type', ['moderator', 'affiliate', 'sub-affiliate', 'admin', 'super'])->default('moderator');
             $table->double('pay_rate')->nullable();
             $table->rememberToken();
             $table->timestamps();

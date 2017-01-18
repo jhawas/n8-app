@@ -30,6 +30,8 @@
 		                <div class="col-md-6">
 			                <select v-model="user.type" class="form-control">
 			                    <option value="moderator" {{ user.type == 'moderator' ? 'selected' : '' }}>Moderator</option>
+			                    <option value="affiliate" {{ user.type == 'affiliate' ? 'selected' : '' }}>Affiliate</option>
+			                    <option value="sub-affiliate" {{ user.type == 'sub-affiliate' ? 'selected' : '' }}>Sub-affiliate</option>
 			                    <option value="admin" {{ user.type == 'admin' ? 'selected' : '' }}>Admin</option>
 			                </select>
 		                </div>
